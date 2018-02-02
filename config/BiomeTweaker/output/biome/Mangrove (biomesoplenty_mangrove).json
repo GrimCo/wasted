@@ -1,0 +1,94 @@
+
+{
+  "ID": 65,
+  "Name": "Mangrove",
+  "Resource Location": "biomesoplenty:mangrove",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenMangrove",
+  "Root Height": -0.1764706,
+  "Height Variation": 0.06875,
+  "Top Block": "biomesoplenty:mud[variant\u003dmud]",
+  "Filler Block": "biomesoplenty:mud[variant\u003dmud]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "13500241",
+  "Temperature": 0.8,
+  "Humidity": 0.3,
+  "Water Tint": 13500241,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "LUSH",
+    "SWAMP",
+    "WATER",
+    "DENSE",
+    "WET"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.vicmatskiv.weaponlib.ai.EntityCustomMob10001",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "quicksand"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "sapphire"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "HOT_SWAMP": 7
+  },
+  "BOP Climate Weights": {
+    "HOT_SWAMP": [
+      7
+    ]
+  }
+}

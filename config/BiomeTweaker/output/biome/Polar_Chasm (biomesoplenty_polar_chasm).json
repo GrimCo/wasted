@@ -1,0 +1,76 @@
+
+{
+  "ID": 107,
+  "Name": "Polar Chasm",
+  "Resource Location": "biomesoplenty:polar_chasm",
+  "Class": "biomesoplenty.common.biome.nether.BiomePolarChasm",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:hard_ice",
+  "Filler Block": "biomesoplenty:hard_ice",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.25,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "NETHER",
+    "DRY",
+    "SNOWY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "PRE Generators": [
+      {
+        "ID": "hive",
+        "Name": "hive"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "hot_springs"
+      },
+      {
+        "ID": "lakes",
+        "Name": "ice_pools"
+      },
+      {
+        "ID": "splatter",
+        "Name": "snow_splatter"
+      }
+    ],
+    "ORE_PRE Generators": [
+      {
+        "ID": "crystals",
+        "Name": "glowstone_crystals"
+      },
+      {
+        "ID": "crystals",
+        "Name": "ice_crystals"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "HELL": 1
+  },
+  "BOP Climate Weights": {
+    "HELL": [
+      1
+    ]
+  }
+}
