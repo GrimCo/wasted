@@ -40,7 +40,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 0.0,
       "enable": true,
       "grassBorderWith": {
         "block": "minecraft:grass",
