@@ -21,9 +21,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "OCEAN",
-    "WATER",
+    "SNOWY",
     "COLD",
-    "SNOWY"
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -106,7 +106,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
