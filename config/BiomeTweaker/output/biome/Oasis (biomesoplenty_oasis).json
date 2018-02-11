@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SANDY",
-    "JUNGLE",
-    "WET",
+    "SPARSE",
     "LUSH",
+    "JUNGLE",
     "HOT",
-    "SPARSE"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -133,7 +133,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {

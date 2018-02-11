@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SAVANNA",
-    "PLAINS",
-    "HOT",
+    "RARE",
     "SPARSE",
-    "RARE"
+    "HOT",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -162,7 +162,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
