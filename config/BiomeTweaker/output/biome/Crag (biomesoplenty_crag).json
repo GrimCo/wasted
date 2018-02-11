@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
-    "DRY",
-    "MAGICAL",
-    "MOUNTAIN",
+    "HILLS",
     "COLD",
-    "HILLS"
+    "DRY",
+    "MOUNTAIN",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -119,7 +119,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
