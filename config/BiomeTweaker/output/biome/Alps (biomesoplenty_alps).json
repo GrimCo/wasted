@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
+    "DRY",
     "SNOWY",
     "MOUNTAIN",
-    "DRY"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -112,7 +112,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -141,8 +141,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "ICE_CAP": 5,
-    "TUNDRA": 3
+    "TUNDRA": 3,
+    "ICE_CAP": 5
   },
   "BOP Climate Weights": {
     "ICE_CAP": [

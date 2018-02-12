@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET",
     "JUNGLE",
+    "WET",
+    "HOT",
     "DENSE"
   ],
   "BiomeManager Entries": {},
@@ -143,7 +143,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

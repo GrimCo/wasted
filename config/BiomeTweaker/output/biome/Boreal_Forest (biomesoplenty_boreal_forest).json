@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "COLD",
-    "CONIFEROUS",
     "HILLS",
-    "DENSE"
+    "DENSE",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -150,7 +150,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "LILYPAD Generators": [
       {

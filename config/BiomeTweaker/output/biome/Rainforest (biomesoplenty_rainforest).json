@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
+    "JUNGLE",
     "WET",
     "LUSH",
-    "JUNGLE",
+    "FOREST",
     "HILLS",
     "DENSE"
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "LILYPAD Generators": [
       {

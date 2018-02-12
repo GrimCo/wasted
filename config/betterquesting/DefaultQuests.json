@@ -3,7 +3,9 @@
   "questDatabase:9": {
     "0:10": {
       "questID:3": 0,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -23,7 +25,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 1,
+          "ismain:1": 0,
           "name:8": "Story",
           "desc:8": "Congradulations Intern! You and several others have been sent to this planet to prove your worthyness. If you prove yourself not only do you get a raise but the chance to earn a paycheck. By going to this dimension you have agreed to the Science, Acquisitions, and Defense (SAD) test."
         }
@@ -38,7 +40,9 @@
     },
     "1:10": {
       "questID:3": 1,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -54,7 +58,7 @@
             "OreDict:8": "logWood"
           },
           "globalshare:1": 0,
-          "questlogic:8": "NAND",
+          "questlogic:8": "AND",
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
@@ -135,8 +139,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:furnace",
@@ -145,7 +152,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -171,7 +178,9 @@
     },
     "3:10": {
       "questID:3": 3,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -237,7 +246,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 0,
+          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 1,
           "consume:1": 1,
@@ -299,8 +308,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_sword",
@@ -333,7 +345,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -371,7 +383,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 1,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -440,7 +452,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 1,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -516,8 +528,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -540,7 +555,7 @@
               "Damage:3": 2
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -591,8 +606,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -615,7 +633,7 @@
               "Damage:3": 1
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -666,8 +684,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -690,14 +711,16 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
     },
     "11:10": {
       "questID:3": 11,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -725,8 +748,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:frame",
@@ -735,7 +761,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -806,8 +832,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -830,7 +859,7 @@
               "Damage:3": 3
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -881,8 +910,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -905,7 +937,7 @@
               "Damage:3": 4
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -956,8 +988,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -980,7 +1015,7 @@
               "Damage:3": 5
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1031,8 +1066,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:machine",
@@ -1055,7 +1093,7 @@
               "Damage:3": 6
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1812,7 +1850,9 @@
     },
     "26:10": {
       "questID:3": 26,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2534,7 +2574,9 @@
     },
     "36:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2978,7 +3020,9 @@
     },
     "43:10": {
       "questID:3": 43,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3165,9 +3209,9 @@
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "thermalexpansion:augment",
+            "id:8": "immersiveengineering:earmuffs",
             "Count:3": 1,
-            "Damage:2": 128,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -3175,9 +3219,9 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Augments",
-          "desc:8": "Each Augment is self explanitory, just hold shift."
+          "ismain:1": 1,
+          "name:8": "Consenting to use",
+          "desc:8": "You agree to use the questbook and listen to the popups on screen..."
         }
       },
       "tasks:9": {
@@ -3190,7 +3234,9 @@
     },
     "47:10": {
       "questID:3": 47,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3268,7 +3314,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 0,
+          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -3309,7 +3355,9 @@
     },
     "49:10": {
       "questID:3": 49,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3367,7 +3415,9 @@
     },
     "50:10": {
       "questID:3": 50,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3418,7 +3468,9 @@
     },
     "51:10": {
       "questID:3": 51,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3471,7 +3523,9 @@
     },
     "52:10": {
       "questID:3": 52,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3571,7 +3625,9 @@
     },
     "54:10": {
       "questID:3": 54,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3616,7 +3672,9 @@
     },
     "55:10": {
       "questID:3": 55,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3661,7 +3719,9 @@
     },
     "56:10": {
       "questID:3": 56,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3706,7 +3766,9 @@
     },
     "57:10": {
       "questID:3": 57,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3798,7 +3860,9 @@
     },
     "59:10": {
       "questID:3": 59,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3843,7 +3907,9 @@
     },
     "60:10": {
       "questID:3": 60,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4059,7 +4125,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 1,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -4473,7 +4539,9 @@
     },
     "71:10": {
       "questID:3": 73,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4555,7 +4623,9 @@
     },
     "73:10": {
       "questID:3": 78,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5111,7 +5181,9 @@
     },
     "76:10": {
       "questID:3": 81,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5156,7 +5228,9 @@
     },
     "77:10": {
       "questID:3": 82,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5301,7 +5375,9 @@
     },
     "80:10": {
       "questID:3": 85,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5346,7 +5422,9 @@
     },
     "81:10": {
       "questID:3": 86,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5375,7 +5453,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 1,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -5594,7 +5672,9 @@
     },
     "86:10": {
       "questID:3": 91,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5640,7 +5720,8 @@
     "87:10": {
       "questID:3": 92,
       "preRequisites:11": [
-        91
+        91,
+        20
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5670,7 +5751,7 @@
         "0:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
-          "groupDetect:1": 0,
+          "groupDetect:1": 1,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 1,
@@ -5973,7 +6054,9 @@
     },
     "96:10": {
       "questID:3": 101,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        46
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -6408,73 +6491,79 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -138,
+          "x:3": -114,
           "y:3": 6,
           "id:3": 0
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -48,
-          "y:3": 36,
-          "id:3": 48
-        },
-        "2:10": {
-          "size:3": 24,
-          "x:3": -66,
+          "x:3": -42,
           "y:3": 6,
           "id:3": 1
         },
-        "3:10": {
+        "2:10": {
           "size:3": 24,
-          "x:3": -30,
+          "x:3": -6,
           "y:3": 6,
           "id:3": 2
         },
-        "4:10": {
+        "3:10": {
           "size:3": 24,
-          "x:3": -102,
+          "x:3": -78,
           "y:3": 6,
           "id:3": 3
         },
-        "5:10": {
+        "4:10": {
           "size:3": 24,
-          "x:3": 42,
+          "x:3": 66,
           "y:3": 6,
           "id:3": 4
         },
-        "6:10": {
+        "5:10": {
           "size:3": 24,
-          "x:3": 78,
+          "x:3": 102,
           "y:3": 6,
           "id:3": 5
         },
-        "7:10": {
+        "6:10": {
           "size:3": 24,
-          "x:3": -84,
-          "y:3": 36,
-          "id:3": 53
-        },
-        "8:10": {
-          "size:3": 24,
-          "x:3": 24,
+          "x:3": 48,
           "y:3": 36,
           "id:3": 6
         },
-        "9:10": {
+        "7:10": {
           "size:3": 24,
-          "x:3": -12,
+          "x:3": 12,
           "y:3": 36,
           "id:3": 7
         },
+        "8:10": {
+          "size:3": 24,
+          "x:3": -150,
+          "y:3": 6,
+          "id:3": 46
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": -24,
+          "y:3": 36,
+          "id:3": 48
+        },
         "10:10": {
           "size:3": 24,
-          "x:3": 6,
-          "y:3": 6,
-          "id:3": 61
+          "x:3": -60,
+          "y:3": 36,
+          "id:3": 53
         },
         "11:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 30,
+          "y:3": 6,
+          "id:3": 61
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": 84,
           "y:3": 36,
           "id:3": 63
         }
@@ -6945,85 +7034,79 @@
         },
         "38:10": {
           "size:3": 24,
-          "x:3": -12,
-          "y:3": 126,
-          "id:3": 46
-        },
-        "39:10": {
-          "size:3": 24,
           "x:3": -84,
           "y:3": 216,
           "id:3": 47
         },
-        "40:10": {
+        "39:10": {
           "size:3": 24,
           "x:3": -48,
           "y:3": 186,
           "id:3": 49
         },
-        "41:10": {
+        "40:10": {
           "size:3": 24,
           "x:3": -12,
           "y:3": 186,
           "id:3": 50
         },
-        "42:10": {
+        "41:10": {
           "size:3": 24,
           "x:3": 24,
           "y:3": 186,
           "id:3": 51
         },
-        "43:10": {
+        "42:10": {
           "size:3": 24,
           "x:3": -120,
           "y:3": 216,
           "id:3": 52
         },
-        "44:10": {
+        "43:10": {
           "size:3": 24,
           "x:3": 60,
           "y:3": 186,
           "id:3": 54
         },
-        "45:10": {
+        "44:10": {
           "size:3": 24,
           "x:3": 96,
           "y:3": 186,
           "id:3": 55
         },
-        "46:10": {
+        "45:10": {
           "size:3": 24,
           "x:3": -48,
           "y:3": 216,
           "id:3": 56
         },
-        "47:10": {
+        "46:10": {
           "size:3": 24,
           "x:3": -12,
           "y:3": 216,
           "id:3": 57
         },
-        "48:10": {
+        "47:10": {
           "size:3": 24,
           "x:3": 24,
           "y:3": 216,
           "id:3": 58
         },
-        "49:10": {
+        "48:10": {
           "size:3": 24,
           "x:3": 60,
           "y:3": 216,
           "id:3": 59
         },
-        "50:10": {
+        "49:10": {
           "size:3": 24,
-          "x:3": 24,
+          "x:3": -12,
           "y:3": 126,
           "id:3": 91
         },
-        "51:10": {
+        "50:10": {
           "size:3": 24,
-          "x:3": 60,
+          "x:3": 24,
           "y:3": 126,
           "id:3": 92
         }

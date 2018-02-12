@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "MAGICAL",
     "WET",
+    "MAGICAL",
     "LUSH",
+    "FOREST",
     "RARE",
     "DENSE"
   ],
@@ -119,7 +119,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "BIG_SHROOM Generators": [
       {

@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SAVANNA",
-    "SPARSE",
-    "HOT",
-    "MOUNTAIN",
     "DRY",
+    "HOT",
+    "SPARSE",
+    "MOUNTAIN",
     "RARE"
   ],
   "BiomeManager Entries": {},
@@ -114,7 +114,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

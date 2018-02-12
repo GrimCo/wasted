@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
+    "PLAINS",
     "DRY",
-    "PLAINS"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -148,7 +148,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -225,8 +225,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "MEDITERANEAN": 7,
-    "DRY_TEMPERATE": 10
+    "DRY_TEMPERATE": 10,
+    "MEDITERANEAN": 7
   },
   "BOP Climate Weights": {
     "DRY_TEMPERATE": [
