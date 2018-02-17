@@ -1,1 +1,28 @@
-[]
+[
+	{
+		"_comment": "I'm disabling this due to how fast and annoying it is",
+		"remove":"techguns:alienbug"
+	},
+	{
+		"_comment": "Extremely strong and acurate, disabled for now",
+		"remove": "techguns:zombiepigmansoldier"
+	},
+	{
+		"_comment":"Adds Wither Skeletons as valid spawns in Ominous Woods",			
+		"biome": "ominous_woods",
+		"mobs": [
+			{
+				"mob": "minecraft:wither_skeleton",
+				"weight": 4,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "minecraft:cave_spider",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	}
+]

@@ -1,1 +1,35 @@
-[]
+[
+	{
+		"_comment":"Disables Modded Entities from Spawning in Spheres",
+		"mob": [
+			"cyberware:cyberzombie", "rewired:cyber_skeleton", "techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:attackhelicopter","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:skeletonsoldier","techguns:stormtrooper","techguns:supermutantbasic","techguns:supermutantheavy","techguns:supermutantelite","techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","thermalfoundation:basalz","thermalfoundation:blitz","thermalfoundation:blizz"
+		],
+		"insphere": true,
+		"result": "deny"
+
+	},
+	{
+		"_comment":"Techguns Soldiers to spawn only in the ruins of cities",
+		"mob": [
+			"techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:stormtrooper"
+		],
+		"incity": false,
+		"result": "deny"
+	},
+	{
+		"_comment": "Techguns Hard Mobs spawn only below ground",
+		"mob": [
+			"techguns:supermutantbasic","techguns:supermutantbasic","techguns:supermutantheavy","techguns:cyberdemon"
+		],
+		"minheight": 60,
+		"result": "deny"
+	},
+	{
+		"_comment": "Techguns Hard Mobs spawn only outside of Spheres",
+		"mob": [
+			"techguns:supermutantbasic","techguns:supermutantbasic","techguns:supermutantheavy","techguns:cyberdemon"
+		],
+		"insphere": true,
+		"result": "deny"
+	}
+]
