@@ -1,15 +1,29 @@
 [
 	{
+		"_comment": "Disable Alien Bugs and Zombie Pigmen Soldiers",
+		"onjoin": true,
+		"mob": ["techguns:alienbug","techguns:zombiepigmansoldier"],
+		"result": "deny"
+	},
+	{
 		"_comment":"Disables Modded Entities from Spawning in Spheres",
 		"mob": [
-			"cyberware:cyberzombie", "rewired:cyber_skeleton", "techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:attackhelicopter","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:skeletonsoldier","techguns:stormtrooper","techguns:supermutantbasic","techguns:supermutantheavy","techguns:supermutantelite","techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","thermalfoundation:basalz","thermalfoundation:blitz","thermalfoundation:blizz"
+			"cyberware:cyberzombie", "rewired:cyberskeleton", "thermalfoundation:basalz", "thermalfoundation:blitz", "thermalfoundation:blizz"
 		],
 		"insphere": true,
 		"result": "deny"
 
 	},
 	{
+		"_comment":"Disable Modded Entities that require onJoin",
+		"onjoin": true,
+		"mob": ["techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:attackhelicopter","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:skeletonsoldier","techguns:stormtrooper","techguns:supermutantbasic","techguns:supermutantheavy","techguns:supermutantelite","techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier"],
+		"insphere": true,
+		"result": "deny"
+	},
+	{
 		"_comment":"Techguns Soldiers to spawn only in the ruins of cities",
+		"onjoin": true,
 		"mob": [
 			"techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:stormtrooper"
 		],
@@ -18,6 +32,7 @@
 	},
 	{
 		"_comment": "Techguns Hard Mobs spawn only below ground",
+		"onjoin": true,
 		"mob": [
 			"techguns:supermutantbasic","techguns:supermutantbasic","techguns:supermutantheavy","techguns:cyberdemon"
 		],
@@ -26,6 +41,7 @@
 	},
 	{
 		"_comment": "Techguns Hard Mobs spawn only outside of Spheres",
+		"onjoin": true,
 		"mob": [
 			"techguns:supermutantbasic","techguns:supermutantbasic","techguns:supermutantheavy","techguns:cyberdemon"
 		],
