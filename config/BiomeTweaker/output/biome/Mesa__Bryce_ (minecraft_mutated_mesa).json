@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
-    "DRY",
     "HOT",
     "SPARSE",
     "MOUNTAIN",
-    "RARE"
+    "RARE",
+    "DRY",
+    "SAVANNA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -95,6 +95,18 @@
       "Weight": 15,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.mr208.rewired.common.entities.EntityCyberSkeleton",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 600,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [
