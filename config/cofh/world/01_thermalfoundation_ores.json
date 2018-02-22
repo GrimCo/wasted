@@ -44,7 +44,7 @@
 				]
 			}
 		},
-		"silver": {
+		"silver1": {
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -73,26 +73,26 @@
 						"type": "id",
 						"entry": [
 							"desert",
-							"desert_hills",
-							"dead_forest",
-							"wasteland",
-							"corrupted_sands",
-							"polar_chasm",
-							"undergarden",
-							"phantasmagoric_inferno",
-							"fungi_forest",
-							"ominous_woods",
-							"dead_swamp",
-							"outback",
-							"tundra",
+							"biomesoplenty:desert_hills",
+							"biomesoplenty:dead_forest",
+							"biomesoplenty:wasteland",
+							"biomesoplenty:corrupted_sands",
+							"biomesoplenty:polar_chasm",
+							"biomesoplenty:undergarden",
+							"biomesoplenty:phantasmagoric_inferno",
+							"biomesoplenty:fungi_forest",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:dead_swamp",
+							"biomesoplenty:outback",
+							"biomesoplenty:tundra",
 							"mesa",
-						 	"mesa_clear_rock",
-							"xeric_shrubland",
-							"bog",
-							"glacier",
-							"cold_desert",
-							"brushland",
-							"steppe"
+						 	"biomesoplenty:mesa_clear_rock",
+							"biomesoplenty:xeric_shrubland",
+							"biomesoplenty:bog",
+							"biomesoplenty:glacier",
+							"biomesoplenty:cold_desert",
+							"biomesoplenty:brushland",
+							"biomesoplenty:steppe"
 						]
 					}
 				]
@@ -105,7 +105,7 @@
 				]
 			}
 		},
-		"lead": {
+		"lead1": {
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -134,26 +134,26 @@
 						"type": "id",
 						"entry": [
 							"desert",
-							"desert_hills",
-							"dead_forest",
-							"wasteland",
-							"corrupted_sands",
-							"polar_chasm",
-							"undergarden",
-							"phantasmagoric_inferno",
-							"fungi_forest",
-							"ominous_woods",
-							"dead_swamp",
-							"outback",
-							"tundra",
+							"biomesoplenty:desert_hills",
+							"biomesoplenty:dead_forest",
+							"biomesoplenty:wasteland",
+							"biomesoplenty:corrupted_sands",
+							"biomesoplenty:polar_chasm",
+							"biomesoplenty:undergarden",
+							"biomesoplenty:phantasmagoric_inferno",
+							"biomesoplenty:fungi_forest",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:dead_swamp",
+							"biomesoplenty:outback",
+							"biomesoplenty:tundra",
 							"mesa",
-						 	"mesa_clear_rock",
-							"xeric_shrubland",
-							"bog",
-							"glacier",
-							"cold_desert",
-							"brushland",
-							"steppe"
+						 	"biomesoplenty:mesa_clear_rock",
+							"biomesoplenty:xeric_shrubland",
+							"biomesoplenty:bog",
+							"biomesoplenty:glacier",
+							"biomesoplenty:cold_desert",
+							"biomesoplenty:brushland",
+							"biomesoplenty:steppe"
 						]
 					}
 				]
@@ -166,7 +166,7 @@
 				]
 			}
 		},
-		"nickel": {
+		"nickel1": {
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -187,26 +187,26 @@
 						"type": "id",
 						"entry": [
 							"desert",
-							"desert_hills",
-							"dead_forest",
-							"wasteland",
-							"corrupted_sands",
-							"polar_chasm",
-							"undergarden",
-							"phantasmagoric_inferno",
-							"fungi_forest",
-							"ominous_woods",
-							"dead_swamp",
-							"outback",
-							"tundra",
+							"biomesoplenty:desert_hills",
+							"biomesoplenty:dead_forest",
+							"biomesoplenty:wasteland",
+							"biomesoplenty:corrupted_sands",
+							"biomesoplenty:polar_chasm",
+							"biomesoplenty:undergarden",
+							"biomesoplenty:phantasmagoric_inferno",
+							"biomesoplenty:fungi_forest",
+							"biomesoplenty:ominous_woods",
+							"biomesoplenty:dead_swamp",
+							"biomesoplenty:outback",
+							"biomesoplenty:tundra",
 							"mesa",
-						 	"mesa_clear_rock",
-							"xeric_shrubland",
-							"bog",
-							"glacier",
-							"cold_desert",
-							"brushland",
-							"steppe"
+						 	"biomesoplenty:mesa_clear_rock",
+							"biomesoplenty:xeric_shrubland",
+							"biomesoplenty:bog",
+							"biomesoplenty:glacier",
+							"biomesoplenty:cold_desert",
+							"biomesoplenty:brushland",
+							"biomesoplenty:steppe"
 						]
 					}
 				]
