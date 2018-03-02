@@ -23,17 +23,17 @@ recipes.addShaped("CTSponge",<minecraft:sponge>,
 		[null, <ore:dustWood>, null]	]);
 
 //Craftable Shulker Shells (via purple plastics)
-val shell = <minecraft:shulker_shell>.withTag({display: {Name:"Artificial Shulker Shell", Lore: ["Plastics Made It Possible"]}});
-mods.jei.JEI.addItem(shell);
-recipes.addShaped("CTShulkerShell", shell,
-	[	[<contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>],
-		[<contenttweaker:plasticpurple>, null, <contenttweaker:plasticpurple>]	]);
+//val shell = <minecraft:shulker_shell>.withTag({display: {Name:"Artificial Shulker Shell", Lore: ["Plastics Made It Possible"]}});
+//mods.jei.JEI.addItem(shell);
+//recipes.addShaped("CTShulkerShell", shell,
+//	[	[<contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>, //<contenttweaker:plasticpurple>],
+//		[<contenttweaker:plasticpurple>, null, <contenttweaker:plasticpurple>]	]);
 
 //Craftable "Death Notebook" for easy checking of Deathcount Scoreboard (iChun mod)
 recipes.addShapeless("CTDeathNotebook",<contenttweaker:deathbook>, [<ore:paper>,<ore:paper>,<ore:paper>,<minecraft:rotten_flesh>]);
 
 //Craftable Crystal Lattice, for use in other custom recipes
-recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<minecraft:sugar>]);
+//recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<minecraft:sugar>]);
 
 //2 Logs -> 16 Sticks
 recipes.addShaped(<minecraft:stick> * 16,
