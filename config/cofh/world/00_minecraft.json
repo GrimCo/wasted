@@ -121,7 +121,7 @@
 			}
 		},
 
-		"clay": {
+        		"clay": {
 
 			"distribution": "uniform",
 			"generator": {
@@ -226,7 +226,7 @@
 			}
 		},
 
-		"diamond1": {
+		"diamond": {
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
@@ -298,7 +298,7 @@
 			}
 		},
 
-		"mesa_gold1": {
+		"mesa_gold": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
@@ -337,7 +337,7 @@
 			}
 		},
 
-		"emerald1": {
+		"emerald": {
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -360,7 +360,7 @@
 						"type": "id",
 						"entry": [
 							"desert",
-							"biomesoplenty:desert_hills",
+                            "biomesoplenty:desert_hills",
 							"biomesoplenty:dead_forest",
 							"biomesoplenty:wasteland",
 							"biomesoplenty:corrupted_sands",

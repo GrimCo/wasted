@@ -1,34 +1,28 @@
 {
-  "enableRain": false,
   "wallBlock": {
     "block": "biomesoplenty:hard_ice",
     "properties": {}
   },
-  "rainfall": 0.0,
+  "fillerBlock": {
+    "block": "biomesoplenty:hard_ice",
+    "properties": {}
+  },
   "skyColor": -1,
-  "guiColour": 11091006,
+  "topBlock": {
+    "block": "biomesoplenty:hard_ice",
+    "properties": {}
+  },
+  "fogColor": 8833519,
   "fogDensity": 0.4,
   "roofTopBlock": {
     "block": "biomesoplenty:hard_ice",
     "properties": {}
   },
   "hasBiomeEssence": false,
-  "waterColor": 16777215,
-  "fillerBlock": {
-    "block": "biomesoplenty:hard_ice",
-    "properties": {}
-  },
-  "topBlock": {
-    "block": "biomesoplenty:hard_ice",
-    "properties": {}
-  },
-  "fogColor": 8833519,
-  "temperature": 0.25,
   "roofFillerBlock": {
     "block": "biomesoplenty:hard_ice",
     "properties": {}
   },
-  "enableSnow": false,
   "generators": {
     "hive": {
       "maxRadius": 9,

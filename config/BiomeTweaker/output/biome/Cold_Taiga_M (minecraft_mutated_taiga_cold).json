@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "FOREST",
     "COLD",
+    "CONIFEROUS",
     "SNOWY",
     "MOUNTAIN",
-    "RARE",
-    "CONIFEROUS",
-    "FOREST"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -163,7 +163,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -186,5 +186,6 @@
   },
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
 }

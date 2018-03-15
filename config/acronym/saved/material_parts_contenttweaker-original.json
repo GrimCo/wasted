@@ -1,3 +1,6 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "ender_ore": 0,
+    "ender_ore_minecraft_stone": 1
+  }
 }

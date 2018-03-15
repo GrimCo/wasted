@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "HOT",
-    "WASTELAND",
-    "MOUNTAIN",
     "DRY",
-    "WATER"
+    "WASTELAND",
+    "WATER",
+    "HOT",
+    "MOUNTAIN",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -60,7 +60,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -97,5 +97,6 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 5
 }

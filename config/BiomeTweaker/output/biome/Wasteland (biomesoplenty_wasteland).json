@@ -13,17 +13,17 @@
   "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-  "Water Color": "15073024",
+  "Water Color": "13390080",
   "Temperature": 2.0,
   "Humidity": 0.0,
-  "Water Tint": 15073024,
+  "Water Tint": 13390080,
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
+    "DRY",
     "WASTELAND",
     "SPARSE",
-    "DRY"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -111,7 +111,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -172,5 +172,6 @@
     "WASTELAND": [
       50
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

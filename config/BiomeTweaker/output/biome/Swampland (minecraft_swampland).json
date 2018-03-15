@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "SWAMP"
+    "SWAMP",
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -145,7 +145,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -247,5 +247,6 @@
     "HOT_SWAMP": [
       5
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

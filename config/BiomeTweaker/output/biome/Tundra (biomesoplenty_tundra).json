@@ -14,17 +14,17 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.2,
+  "Temperature": 0.25,
   "Humidity": 0.5,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "COLD",
+    "DRY",
     "WASTELAND",
+    "COLD",
     "SPARSE",
-    "DRY"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -125,7 +125,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -141,10 +141,6 @@
       {
         "ID": "flora",
         "Name": "leaf_piles"
-      },
-      {
-        "ID": "weighted",
-        "Name": "flowers"
       },
       {
         "ID": "flora",
@@ -208,5 +204,6 @@
     "TUNDRA": [
       10
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

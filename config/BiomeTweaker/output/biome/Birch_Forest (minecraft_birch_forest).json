@@ -138,7 +138,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -210,5 +210,6 @@
     "WARM_TEMPERATE": [
       5
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

@@ -14,19 +14,19 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.8,
+  "Temperature": 0.85,
   "Humidity": 0.9,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "LUSH",
-    "DENSE",
-    "RARE",
+    "FOREST",
     "MAGICAL",
+    "WET",
     "JUNGLE",
-    "FOREST"
+    "DENSE",
+    "LUSH",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -146,7 +146,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -241,5 +241,6 @@
     "TROPICAL": [
       1
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "MOUNTAIN",
+    "SPARSE",
     "RARE"
   ],
   "BiomeManager Entries": {},
@@ -148,7 +148,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -171,5 +171,6 @@
   },
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
 }

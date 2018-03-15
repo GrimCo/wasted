@@ -44,7 +44,7 @@
 				]
 			}
 		},
-		"silver1": {
+		"silver": {
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -67,7 +67,7 @@
 			"max-height": 30,
 			"retrogen": "true",
 			"biome": {
-				"restriction": "whitelist",
+            "restriction": "whitelist",
 				"value": [
 					{
 						"type": "id",
@@ -105,7 +105,7 @@
 				]
 			}
 		},
-		"lead1": {
+		"lead": {
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -166,7 +166,7 @@
 				]
 			}
 		},
-		"nickel1": {
+		"nickel": {
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -208,7 +208,7 @@
 							"biomesoplenty:brushland",
 							"biomesoplenty:steppe"
 						]
-					}
+				   }
 				]
 			},
 			"dimension": {
