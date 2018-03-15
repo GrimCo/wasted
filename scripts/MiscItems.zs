@@ -6,13 +6,13 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
-var crystallattice = VanillaFactory.createItem("crystallattice");
-crystallattice.creativeTab = <creativetab:misc>;
-crystallattice.register();
+//var crystallattice = VanillaFactory.createItem("crystallattice");
+//crystallattice.creativeTab = <creativetab:misc>;
+//crystallattice.register();
 
-var plasticPurple = VanillaFactory.createItem("plasticPurple");
-plasticPurple.creativeTab = <creativetab:misc>;
-plasticPurple.register();
+//var plasticPurple = VanillaFactory.createItem("plasticPurple");
+//plasticPurple.creativeTab = <creativetab:misc>;
+//plasticPurple.register();
 
 var deathBook = VanillaFactory.createItem("deathBook");
 deathBook.maxStackSize = 1;
