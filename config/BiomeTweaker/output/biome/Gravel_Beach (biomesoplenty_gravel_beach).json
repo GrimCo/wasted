@@ -109,7 +109,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -132,5 +132,6 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
 }

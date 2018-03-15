@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
+    "FOREST",
+    "SWAMP",
     "WET",
     "COLD",
     "DENSE",
-    "SWAMP",
-    "FOREST"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -145,7 +145,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -282,5 +282,6 @@
     "COLD_SWAMP": [
       7
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

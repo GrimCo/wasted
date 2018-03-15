@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
+    "DRY",
     "HOT",
+    "HILLS",
     "SPARSE",
-    "RARE",
-    "DRY"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -113,7 +113,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -136,5 +136,6 @@
   },
   "BOP Owner": "OTHER",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
 }

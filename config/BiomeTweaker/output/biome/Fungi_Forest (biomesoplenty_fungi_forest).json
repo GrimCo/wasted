@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "DENSE",
+    "MUSHROOM",
     "NETHER",
-    "MUSHROOM"
+    "HOT",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -62,7 +62,7 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "PRE Generators": [
       {
@@ -111,5 +111,6 @@
     "HELL": [
       75
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

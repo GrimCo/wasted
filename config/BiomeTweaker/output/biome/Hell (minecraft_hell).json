@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "DRY",
-    "NETHER"
+    "NETHER",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -61,7 +61,7 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "PRE Generators": [
       {
@@ -94,5 +94,6 @@
     "HELL": [
       150
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "DENSE",
+    "FOREST",
     "PLAINS",
-    "FOREST"
+    "DENSE",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -108,6 +108,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -143,7 +149,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -216,5 +222,6 @@
     "WARM_TEMPERATE": [
       3
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

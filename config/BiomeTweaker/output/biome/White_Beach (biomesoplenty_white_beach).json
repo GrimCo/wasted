@@ -15,7 +15,7 @@
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": 1.0,
-  "Humidity": 1.0,
+  "Humidity": 0.95,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
@@ -49,7 +49,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -72,5 +72,6 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
 }

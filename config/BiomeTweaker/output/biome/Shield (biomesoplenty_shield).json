@@ -14,16 +14,16 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.3,
+  "Temperature": 0.4,
   "Humidity": 0.8,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "WET",
     "COLD",
-    "DENSE",
-    "FOREST"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -108,6 +108,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -143,7 +149,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "LILYPAD Generators": [
       {
@@ -240,5 +246,6 @@
     "BOREAL": [
       5
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

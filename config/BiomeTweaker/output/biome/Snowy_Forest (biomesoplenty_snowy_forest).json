@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "FOREST",
     "WET",
     "COLD",
-    "SPARSE",
     "SNOWY",
-    "FOREST"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -109,6 +109,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -144,7 +150,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -207,5 +213,6 @@
     "TUNDRA": [
       7
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

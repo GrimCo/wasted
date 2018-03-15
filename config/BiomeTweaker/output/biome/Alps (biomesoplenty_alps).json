@@ -14,16 +14,16 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": -0.5,
+  "Temperature": -0.25,
   "Humidity": 0.3,
   "Water Tint": 16777215,
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "DRY",
     "COLD",
-    "SNOWY",
     "MOUNTAIN",
-    "DRY"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -124,7 +124,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -163,5 +163,6 @@
     "TUNDRA": [
       3
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

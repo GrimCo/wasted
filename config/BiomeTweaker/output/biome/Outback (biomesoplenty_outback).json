@@ -14,17 +14,17 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 1.5,
+  "Temperature": 2.0,
   "Humidity": 0.05,
   "Water Tint": 16777215,
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SPARSE",
-    "SANDY",
     "DRY",
-    "SAVANNA"
+    "SANDY",
+    "HOT",
+    "SAVANNA",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -84,6 +84,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -112,7 +118,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -183,5 +189,6 @@
     "HOT_DESERT": [
       7
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

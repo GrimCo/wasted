@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MESA",
-    "SANDY"
+    "SANDY",
+    "MESA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -116,7 +116,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -163,5 +163,6 @@
     "HOT_DESERT": [
       15
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

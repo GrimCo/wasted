@@ -14,18 +14,18 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16715898",
-  "Temperature": 0.6,
+  "Temperature": 0.7,
   "Humidity": 0.8,
   "Water Tint": 16715898,
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "LUSH",
-    "DENSE",
-    "RARE",
+    "FOREST",
     "MAGICAL",
-    "FOREST"
+    "WET",
+    "DENSE",
+    "LUSH",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -119,7 +119,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "BIG_SHROOM Generators": [
       {
@@ -244,5 +244,6 @@
     "WET_TEMPERATE": [
       1
     ]
-  }
+  },
+  "BOP Island Weight": 0
 }

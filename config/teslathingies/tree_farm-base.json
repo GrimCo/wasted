@@ -22,5 +22,11 @@
     "logs": [ "evilcraft:undead_log" ],
     "leaves": [ "evilcraft:undead_leaves" ],
     "saplings": [ ]
+  },
+  {
+    "mod_id": "ic2",
+    "logs": [ "ic2:rubber_wood" ],
+    "leaves": [ ],
+    "saplings": [ ]
   }
 ]

@@ -2,7 +2,7 @@
 	{
 		"_comment": "Disable Alien Bugs and Zombie Pigmen Soldiers",
 		"onjoin": true,
-		"mob": ["techguns:alienbug","techguns:zombiepigmansoldier","minecraft:zombie_pigman"],
+		"mob": ["techguns:alienbug","techguns:zombiepigmansoldier"],
 		"result": "deny"
 	},
 	{

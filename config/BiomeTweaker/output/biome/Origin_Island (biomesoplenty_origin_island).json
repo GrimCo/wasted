@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "FOREST",
     "WATER",
-    "FOREST"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -77,6 +77,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -98,7 +104,7 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": true,
-  "Tweaked": true,
+  "Tweaked": false,
   "BOP Generators": {
     "FLOWERS Generators": [
       {
@@ -131,5 +137,6 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {},
-  "BOP Climate Weights": {}
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 1
 }
