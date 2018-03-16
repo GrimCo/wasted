@@ -7,6 +7,12 @@
     "block": "minecraft:soul_sand",
     "properties": {}
   },
+  "seaFloorBlock": {
+    "block": "biomesoplenty:mud",
+    "properties": {
+      "variant": "mud"
+    }
+  },
   "skyColor": 10007391,
   "topBlock": {
     "block": "minecraft:soul_sand",

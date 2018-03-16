@@ -10,10 +10,9 @@
   "variationAbove": 15.0,
   "waterColor": 1973030,
   "seaFloorBlock": {
-    "block": "minecraft:dirt",
+    "block": "biomesoplenty:mud",
     "properties": {
-      "snowy": "false",
-      "variant": "dirt"
+      "variant": "mud"
     }
   },
   "fillerBlock": {

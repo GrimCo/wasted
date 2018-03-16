@@ -3,6 +3,12 @@
   "skyColor": 10007391,
   "fogDensity": 0.250,
   "guiColour": 5919808,
+  "seaFloorBlock": {
+    "block": "biomesoplenty:mud",
+    "properties": {
+      "variant": "mud"
+    }
+  },
   "generators": {
     "glowshrooms": {
       "with": {

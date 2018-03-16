@@ -8,6 +8,12 @@
   "skyColor": 10007391,
   "guiColour": 5919808,
   "fogDensity": 0.250,
+  "seaFloorBlock": {
+    "block": "biomesoplenty:mud",
+    "properties": {
+      "variant": "mud"
+    }
+  },
   "roofTopBlock": {
     "block": "minecraft:netherrack",
     "properties": {}

@@ -12,6 +12,12 @@
     "block": "minecraft:netherrack",
     "properties": {}
   },
+  "seaFloorBlock": {
+    "block": "biomesoplenty:mud",
+    "properties": {
+      "variant": "mud"
+    }
+  },
   "hasBiomeEssence": false,
   "waterColor": 16777215,
   "fillerBlock": {
