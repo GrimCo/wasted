@@ -46,3 +46,33 @@ recipes.addShaped(<minecraft:chest> * 4,
  [[<ore:logWood>, <ore:logWood>, <ore:logWood>],
   [<ore:logWood>, null, <ore:logWood>],
   [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+
+//TechGuns Fabricator Recipe Change (Removes Cybernetic Parts Req.)
+recipes.remove(<techguns:multiblockmachine:0>);
+recipes.addShaped(<techguns:multiblockmachine:0> * 4,
+ [[<ore:plateSteel>, <techguns:itemshared:59>, <ore:plateSteel>],
+  [<minecraft:piston>, <techguns:itemshared:70>, <minecraft:piston>],
+  [<ore:plateSteel>, <ore:circuitElite>, <ore:plateSteel>]]);
+
+//Cheaper Portal Gun recipe, because Nether Stars are dumb
+recipes.remove(<portalgun:item_portalgun>);
+recipes.addShaped(<portalgun:item_portalgun>,
+ [[<minecraft:obsidian>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+  [<ore:gemDiamond>, <ore:gemDiamond>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <minecraft:obsidian>, <minecraft:iron_ingot>]]);
+
+//CRAFTABLE RIOT SHIELDS. 'NUFF SAID.
+recipes.addShaped(<rewired:shield.polymer>,
+ [[<techguns:itemshared:55>, <minecraft:glass_pane>, <techguns:itemshared:55>],
+  [<techguns:itemshared:55>, <minecraft:iron_ingot>, <techguns:itemshared:55>],
+  [<techguns:itemshared:55>, <minecraft:glass_pane>, <techguns:itemshared:55>]]);
+
+recipes.addShaped(<rewired:shield.carbon>,
+ [[<techguns:itemshared:53>, <minecraft:glass_pane>, <techguns:itemshared:53>],
+  [<techguns:itemshared:55>, <minecraft:iron_ingot>, <techguns:itemshared:55>],
+  [<techguns:itemshared:53>, <minecraft:glass_pane>, <techguns:itemshared:53>]]);
+
+recipes.addShaped(<rewired:shield.plasteel>,
+ [[<ore:plateSteel>, <minecraft:glass_pane>, <ore:plateSteel>],
+  [<techguns:itemshared:55>, <minecraft:iron_ingot>, <techguns:itemshared:55>],
+  [<ore:plateSteel>, <minecraft:glass_pane>, <ore:plateSteel>]]);
