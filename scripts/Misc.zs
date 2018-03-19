@@ -23,17 +23,17 @@ recipes.addShaped("CTSponge",<minecraft:sponge>,
 		[null, <ore:dustWood>, null]	]);
 
 //Craftable Shulker Shells (via purple plastics)
-//val shell = <minecraft:shulker_shell>.withTag({display: {Name:"Artificial Shulker Shell", Lore: ["Plastics Made It Possible"]}});
-//mods.jei.JEI.addItem(shell);
-//recipes.addShaped("CTShulkerShell", shell,
-//	[	[<contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>, //<contenttweaker:plasticpurple>],
-//		[<contenttweaker:plasticpurple>, null, <contenttweaker:plasticpurple>]	]);
+val shell = <minecraft:shulker_shell>.withTag({display: {Name:"Artificial Shulker Shell", Lore: ["Plastics Made It Possible"]}});
+mods.jei.JEI.addItem(shell);
+recipes.addShaped("CTShulkerShell", shell,
+	[	[<contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>, <contenttweaker:plasticpurple>],
+		[<contenttweaker:plasticpurple>, null, <contenttweaker:plasticpurple>]	]);
 
 //Craftable "Death Notebook" for easy checking of Deathcount Scoreboard (iChun mod)
 recipes.addShapeless("CTDeathNotebook",<contenttweaker:deathbook>, [<ore:paper>,<ore:paper>,<ore:paper>,<minecraft:rotten_flesh>]);
 
 //Craftable Crystal Lattice, for use in other custom recipes
-//recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<minecraft:sugar>]);
+recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<minecraft:sugar>]);
 
 //2 Logs -> 16 Sticks
 recipes.addShaped(<minecraft:stick> * 16,
@@ -46,20 +46,6 @@ recipes.addShaped(<minecraft:chest> * 4,
  [[<ore:logWood>, <ore:logWood>, <ore:logWood>],
   [<ore:logWood>, null, <ore:logWood>],
   [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
-
-//TechGuns Fabricator Recipe Change (Removes Cybernetic Parts Req.)
-recipes.remove(<techguns:multiblockmachine:0>);
-recipes.addShaped(<techguns:multiblockmachine:0> * 4,
- [[<ore:plateSteel>, <techguns:itemshared:59>, <ore:plateSteel>],
-  [<minecraft:piston>, <techguns:itemshared:70>, <minecraft:piston>],
-  [<ore:plateSteel>, <ore:circuitElite>, <ore:plateSteel>]]);
-
-//Cheaper Portal Gun recipe, because Nether Stars are dumb
-recipes.remove(<portalgun:item_portalgun>);
-recipes.addShaped(<portalgun:item_portalgun>,
- [[<minecraft:obsidian>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
-  [<ore:gemDiamond>, <ore:gemDiamond>, <minecraft:iron_ingot>],
-  [<minecraft:iron_ingot>, <minecraft:obsidian>, <minecraft:iron_ingot>]]);
 
 //CRAFTABLE RIOT SHIELDS. 'NUFF SAID.
 recipes.addShaped(<rewired:shield.polymer>,
