@@ -6,7 +6,7 @@ import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.InductionSmelter;
 
 //RF Cost to Pulverize Plates and Gears back to Dust
-//val RFCOST = 1500 as int;
+val RFCOST = 1500 as int;
 
 //val foundationDusts = [<thermalfoundation:material:0>,<thermalfoundation:material:1>,<thermalfoundation:material:64>,<thermalfoundation:material:65>,<thermalfoundation:material:66>,<thermalfoundation:material:67>,<thermalfoundation:material:68>,<thermalfoundation:material:69>,<thermalfoundation:material:70>,<thermalfoundation:material:71>,<thermalfoundation:material:72>,<thermalfoundation:material:96>,<thermalfoundation:material:97>,<thermalfoundation:material:98>,<thermalfoundation:material:99>,<thermalfoundation:material:100>,<thermalfoundation:material:101>,<thermalfoundation:material:102>,<thermalfoundation:material:103>,<redstonearsenal:material:0>] as IItemStack[];
 
@@ -105,12 +105,13 @@ recipes.addShapeless("TETankClean", teTank,
 	 }, null);
 	 
 //Purple Glazed Plastic
-//mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<industrialforegoing:plastic>,<minecraft:dye:5>, 4500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<techguns:itemshared:55>,<minecraft:dye:5>, 4500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<mekanism:polyethene:2>,<minecraft:dye:5>, 4500);
 
 //Crystalline Lattice Recipes
-//mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:prismarine>,<contenttweaker:crystallattice>,<liquid:water> * 250, 4500);
-//mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:quartz_block>,<contenttweaker:crystallattice>,<liquid:lava> * 250, 4500);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:prismarine>,<contenttweaker:crystallattice>,<liquid:water> * 250, 4500);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:quartz_block>,<contenttweaker:crystallattice>,<liquid:lava> * 250, 4500);
 
-//mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 4, <minecraft:prismarine:0>, RFCOST);
-//mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 9, <minecraft:prismarine:1>, RFCOST);
-//mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 8, <minecraft:prismarine:2>, RFCOST, <minecraft:dye:0>, 33);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 4, <minecraft:prismarine:0>, RFCOST);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 9, <minecraft:prismarine:1>, RFCOST);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 8, <minecraft:prismarine:2>, RFCOST, <minecraft:dye:0>, 33);
