@@ -22,6 +22,7 @@
 	},
 	{
 		"_comment":"Disable Modded Entities that require onJoin",
+		"onjoin": true,
 		"mob": ["techguns:armysoldier","techguns:bandit","techguns:commando","techguns:cyberdemon","techguns:attackhelicopter","techguns:dictatordave","techguns:outcast","techguns:psychosteve","techguns:skeletonsoldier","techguns:stormtrooper","techguns:supermutantbasic","techguns:supermutantheavy","techguns:supermutantelite","techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier"],
 		"insphere": true,
 		"result": "deny"
