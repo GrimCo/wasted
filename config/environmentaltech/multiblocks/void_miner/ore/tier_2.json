@@ -444,6 +444,11 @@
       "target": "green",
       "weight": 200,
       "id": "OD:oreEnderEssence"
+    },
+    {
+        "target": "green",
+        "weight": 120,
+        "id": "contenttweaker:sub_block_holder_0"
     }
   ]
 }
