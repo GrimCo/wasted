@@ -439,6 +439,11 @@
       "target": "black",
       "weight": 4,
       "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+        "target": "green",
+        "weight": 120,
+        "id": "contenttweaker:sub_block_holder_0"
     }
   ]
 }
