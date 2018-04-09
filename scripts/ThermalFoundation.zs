@@ -69,7 +69,7 @@ recipes.addShaped("TE_"+count+"_Hardened",device.withTag({Level: 1}),
 		[null, <ore:ingotInvar>, null]
 	],
 	function(out, ins, cInfo){
-		return ins.device.updateTag({Level: 1});		
+		return ins.device.withAmount(1).updateTag({Level: 1});		
 	},null);	
 recipes.addShaped("TE_"+count+"_Reinforced",device.withTag({Level: 2}),
 	[	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>],
@@ -77,7 +77,7 @@ recipes.addShaped("TE_"+count+"_Reinforced",device.withTag({Level: 2}),
 		[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]
 	],
 	function(out, ins, cInfo){
-		return ins.device.updateTag({Level: 2});		
+		return ins.device.withAmount(1).updateTag({Level: 2});		
 	},null);	
 recipes.addShaped("TE_"+count+"_Signalum",device.withTag({Level: 3}),
 	[	[null, <ore:ingotSignalum>, null],
@@ -85,7 +85,7 @@ recipes.addShaped("TE_"+count+"_Signalum",device.withTag({Level: 3}),
 		[null, <ore:ingotSignalum>, null]
 	],
 	function(out, ins, cInfo){
-		return ins.device.updateTag({Level: 3});		
+		return ins.device.withAmount(1).updateTag({Level: 3});		
 	},null);	
 recipes.addShaped("TE_"+count+"_Enderium",device.withTag({Level: 4}),
 	[	[null, <ore:ingotEnderium>, null],
@@ -93,7 +93,7 @@ recipes.addShaped("TE_"+count+"_Enderium",device.withTag({Level: 4}),
 		[null, <ore:ingotEnderium>, null]
 	],
 	function(out, ins, cInfo){
-		return ins.device.updateTag({Level: 4});		
+		return ins.device.withAmount(1).updateTag({Level: 4});		
 	},null);	
 }
 
