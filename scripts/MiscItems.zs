@@ -10,11 +10,11 @@ var crystallattice = VanillaFactory.createItem("crystallattice");
 crystallattice.creativeTab = <creativetab:misc>;
 crystallattice.register();
 
-var plasticPurple = VanillaFactory.createItem("plasticPurple");
+var plasticPurple = VanillaFactory.createItem("plasticpurple");
 plasticPurple.creativeTab = <creativetab:misc>;
 plasticPurple.register();
 
-var deathBook = VanillaFactory.createItem("deathBook");
+var deathBook = VanillaFactory.createItem("deathbook");
 deathBook.maxStackSize = 1;
 deathBook.creativeTab = <creativetab:misc>;
 deathBook.itemRightClick = function(stack, world, player, hand){ Commands.call("deathcounter leaderboard", player, world); return "Pass";};
