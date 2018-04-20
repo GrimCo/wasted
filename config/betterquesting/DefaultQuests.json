@@ -3129,8 +3129,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:frame",
@@ -3139,7 +3142,7 @@
               "Damage:3": 128
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3185,15 +3188,18 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Completed",
-          "desc:8": "No Description"
+          "name:8": "Energy Cell Completed",
+          "desc:8": "Finally, a way to store all the energy you will soon be generating!"
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermalexpansion:cell",
@@ -3218,7 +3224,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -3854,8 +3860,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "thermaldynamics:filter",
@@ -3864,7 +3873,7 @@
               "Damage:3": 0
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
