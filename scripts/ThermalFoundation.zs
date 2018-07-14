@@ -24,7 +24,7 @@ val RFCOST = 1500 as int;
 //mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 100, null,<liquid:essence> * 100, 2500);
 
 //Blaze Powder Recipe
-mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glowstone_dust>,<liquid:redstone> * 200);
+//mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glowstone_dust>,<liquid:redstone> * 200);
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:blaze_powder>,<minecraft:gunpowder>,<liquid:redstone> * 200, 4500);
 
 //Chorus Plant from Poisonus Potato
